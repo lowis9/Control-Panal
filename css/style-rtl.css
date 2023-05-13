@@ -1,0 +1,54 @@
+/* start Dashbord page  */
+.page h1::before, .page h1::after {
+  left: unset;
+  right: 0;
+}
+.head .icons img {
+  margin-left: unset;
+  margin-right: 15px;
+}
+.targets .target-row .icon { 
+  margin-left: 15px;
+  margin-right: unset
+}
+.targets .details .progress > span {
+  left: unset;
+  right: 0
+}
+.targets .details .progress > span span {
+  right: unset;
+  left: -16px
+}
+.last-project ul::before {
+  left: unset;
+  right: 11px
+}
+.last-project ul li::before {
+  margin-right: unset;
+  margin-left: 15px;
+}
+.last-project .launch-icon {
+  right: unset;
+  left: 0;
+}
+.reminders ul li > div {
+  border-width: 0 2px 0 0
+}
+.social-media .box {
+  padding-left: 15px;
+  padding-right: 70px;
+}
+.social-media .box i {
+  left: unset;
+  right: 0;
+}
+/* Emd Dashbord Page */
+/* FrameWork Classes fliped */
+.mr-15 {
+  margin-right: unset;
+  margin-left: 15px
+}
+.pl-15 {
+  padding-left: unset;
+  padding-right: 15px;
+}
